@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import hero from "../pic/hero.jpg";
 import TypeWriterEffect from 'react-typewriter-effect';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
   return (
@@ -103,8 +103,9 @@ const Home = () => {
                     <a href="https://twitter.com/saileshadh1"><i class="fa fa-twitter"></i></a>
                   </button>
                   <button className="btn_shadow">
-                    <a href="https://github.com/saileshadh">
-                    <i class="fa fa-github"></i></a>
+                    <a href="https://github.com/saileshadh"></a>
+                    <FontAwesomeIcon icon="fa-brands fa-github" />
+                    
                   </button>
                   <button className="btn_shadow"><a href="https://www.linkedin.com/in/sailesh-adhikari-10186a237/">
                   <i class="fa fa-linkedin"></i></a>
