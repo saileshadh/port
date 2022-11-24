@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
-import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import { Form, button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -39,7 +40,7 @@ const Contact = () => {
         <div className='container top'>
           <div className='heading text-center'>
 
-            <h2>Contact Me</h2>
+            <h1>Contact Me</h1>
           </div>
 
           <div className='content d_flex'>
@@ -59,14 +60,14 @@ const Contact = () => {
                   <div className='button f_flex'>
 
                     <button className="btn_shadow">
-                      <a href="https://twitter.com/saileshadh1"><i class="fa fa-twitter"></i></a>
+                      <a href="https://twitter.com/saileshadh1"><span>Twitter</span></a>
                     </button>
                     <button className="btn_shadow">
                       <a href="https://github.com/saileshadh">
-                        <i class="fa fa-github"></i></a>
+                        <span>GitHub</span></a>
                     </button>
                     <button className="btn_shadow"><a href="https://www.linkedin.com/in/sailesh-adhikari-10186a237/">
-                      <i class="fa fa-linkedin"></i></a>
+                    <span>linkedin</span></a>
                     </button>
                   </div>
                 </div>

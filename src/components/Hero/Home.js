@@ -2,7 +2,10 @@ import React from "react";
 import "./Home.css";
 import hero from "../pic/hero.jpg";
 import TypeWriterEffect from 'react-typewriter-effect';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import linkedin from "../pic/linkedin.jpg";
+import GitHub from "../pic/GitHub.jpg";
+import twitter from "../pic/twitter.jpg";
 
 const Home = () => {
   return (
@@ -100,15 +103,18 @@ const Home = () => {
                 <h4>FIND ME</h4>
                 <div className="button">
                   <button className="btn_shadow">
-                    <a href="https://twitter.com/saileshadh1"><i class="fa fa-twitter"></i></a>
+                    <a href="https://twitter.com/saileshadh1/">
+                     <img src={twitter} alt=""/>
+                      </a>
+                      
                   </button>
                   <button className="btn_shadow">
-                    <a href="https://github.com/saileshadh"></a>
-                    <FontAwesomeIcon icon="fa-brands fa-github" />
-                    
+                    <a href="https://github.com/saileshadh">
+                    <img src={GitHub}/>
+                    </a>
                   </button>
                   <button className="btn_shadow"><a href="https://www.linkedin.com/in/sailesh-adhikari-10186a237/">
-                  <i class="fa fa-linkedin"></i></a>
+                  <img src={linkedin} alt="" /></a>
                   </button>
                 </div>
               </div>
